@@ -22,7 +22,7 @@ int find(Graph *graph){
 	int mas[graph->V];
 	int p;
 	for(p = 0; p < graph->V; p++)
-	mas[p] = 2400000;
+	mas[p] = 2147483648;
 	mas[i] = 0;
 
 	for(p = 0; p < graph->V - 1; p++){
